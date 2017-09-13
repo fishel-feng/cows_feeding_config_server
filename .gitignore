@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/
+*.iml
+web/js/jquery-3.2.1.min.js
+web/index.jsp
+out/
