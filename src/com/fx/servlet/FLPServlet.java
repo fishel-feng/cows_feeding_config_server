@@ -1,4 +1,4 @@
-package com.fx;
+package com.fx.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
