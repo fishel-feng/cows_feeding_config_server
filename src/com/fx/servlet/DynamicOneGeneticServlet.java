@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "DynamicOneGeneticServlet", urlPatterns = "/DynamicOneGeneticServlet")
+@WebServlet(name = "DynamicOneGeneticServlet", urlPatterns = "/DynamicOneGenetic")
 public class DynamicOneGeneticServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

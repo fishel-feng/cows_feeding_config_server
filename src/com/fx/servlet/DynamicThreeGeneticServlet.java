@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "DynamicThreeGeneticServlet", urlPatterns = "/DynamicThreeGeneticServlet")
+@WebServlet(name = "DynamicThreeGeneticServlet", urlPatterns = "/DynamicThreeGenetic")
 public class DynamicThreeGeneticServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
