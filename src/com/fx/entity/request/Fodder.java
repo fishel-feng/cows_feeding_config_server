@@ -11,14 +11,27 @@ public class Fodder {
     @SerializedName("dry_matter")
     public String dryMatter;
 
+    @SerializedName("crude_protein")
+    public String crudeProtein;
+
+    public String energy;
+
     public String calcium;
 
     public String phosphorus;
 
-    public String energy;
+    public String sodium;
 
-    @SerializedName("crude_protein")
-    public String crudeProtein;
+    public String chlorine;
+
+    public String potassium;
+
+    public String magnesium;
+
+    public String sulphur;
+
+    @SerializedName("crude_fat")
+    public String crudeFat;
 
     public String price;
 

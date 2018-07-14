@@ -8,18 +8,15 @@ public class Cow {
 
     public String weight;
 
-    @SerializedName("weight_change")
-    public String weightChange;
+    @SerializedName("milk_days")
+    public String milkDays;
 
-    @SerializedName("milk_production")
+    @SerializedName("milk_roduction")
     public String milkProduction;
+
+    @SerializedName("milk_week")
+    public String milkWeek;
 
     @SerializedName("milk_fat")
     public String milkFat;
-
-    @SerializedName("milk_protein")
-    public String milkProtein;
-
-    @SerializedName("lactation_weeks")
-    public String lactationWeeks;
 }
